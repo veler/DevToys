@@ -49,11 +49,13 @@ namespace DevToys.Views.Tools.JsonYaml
             {
                 if (JsonHelper.IsValid(parameters.ClipBoardContent!))
                 {
-                    ViewModel.ConversionMode = JsonYamlToolViewModel.JsonToYaml;
+                    ViewModel.InputValueLanguage = Models.GeneratorLanguageDisplayPair.Json;
+                    ViewModel.OutputValueLanguage = Models.GeneratorLanguageDisplayPair.Yaml;
                 }
                 else
                 {
-                    ViewModel.ConversionMode = JsonYamlToolViewModel.YamlToJson;
+                    ViewModel.InputValueLanguage = Models.GeneratorLanguageDisplayPair.Yaml;
+                    ViewModel.OutputValueLanguage = Models.GeneratorLanguageDisplayPair.Json;
                 }
 
                 ViewModel.InputValue = parameters.ClipBoardContent;

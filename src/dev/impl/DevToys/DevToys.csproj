@@ -73,6 +73,8 @@
     <Compile Include="Models\HashingProgress.cs" />
     <Compile Include="Models\NumberBaseDictionary.cs" />
     <Compile Include="Models\SqlLanguageDisplayPair.cs" />
+    <Compile Include="Models\GeneratorLanguageDisplayPair.cs" />
+    <Compile Include="Models\GeneratorLanguages.cs" />
     <Compile Include="Models\NoResultFoundMockToolProvider.cs" />
     <Compile Include="Models\Radix.cs" />
     <Compile Include="Models\NumberBaseFormat.cs" />
@@ -89,6 +91,9 @@
     <Compile Include="ViewModels\Tools\AllTools\AllToolsToolProvider.cs" />
     <Compile Include="ViewModels\Tools\AllTools\AllToolsToolViewModel.cs" />
     <Compile Include="ViewModels\Tools\Converters\ConvertersGroupToolProvider.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Abstractions\ITextConverterAggregator.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Abstractions\ITextFormatter.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\ConverterConfiguration.cs" />
     <Compile Include="ViewModels\Tools\Converters\NumberBaseConverter\AdvancedNumberBaseConverterControlViewModel.cs" />
     <Compile Include="ViewModels\Tools\Converters\NumberBaseConverter\BasicNumberBaseConverterControlViewModel.cs" />
     <Compile Include="ViewModels\Tools\Converters\NumberBaseConverter\Exceptions\InvalidBaseNumberException.cs" />
@@ -102,6 +107,12 @@
     <Compile Include="ViewModels\Tools\EncodersDecoders\Base64ImageEncoderDecoder\MockSettingsProvider.cs" />
     <Compile Include="ViewModels\Tools\EncodersDecoders\GZipEncoderDecoder\GZipEncoderDecoderToolProvider.cs" />
     <Compile Include="ViewModels\Tools\EncodersDecoders\GZipEncoderDecoder\GZipEncoderDecoderToolViewModel.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Abstractions\ITextFormatterContainer.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Abstractions\IConverterService.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Abstractions\ServiceTypeAttribute.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\ConverterService.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Converters\JsonConverterService.cs" />
+    <Compile Include="ViewModels\Tools\Converters\JsonYaml\Services\Converters\YamlConverterService.cs" />
     <Compile Include="Helpers\JsonYaml\Core\DecimalJsonConverter.cs" />
     <Compile Include="Helpers\JsonYaml\Core\DecimalYamlTypeResolver.cs" />
     <Compile Include="ViewModels\Tools\EncodersDecoders\EncodersDecodersGroupToolProvider.cs" />

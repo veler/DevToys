@@ -144,8 +144,8 @@
   <data name="InvalidYaml" xml:space="preserve">
     <value>The entered YAML is invalid.</value>
   </data>
-  <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON to YAML</value>
+  <data name="Json" xml:space="preserve">
+    <value>JSON</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Output</value>
@@ -153,8 +153,8 @@
   <data name="TwoSpaces" xml:space="preserve">
     <value>2 spaces</value>
   </data>
-  <data name="YamlToJson" xml:space="preserve">
-    <value>YAML to JSON</value>
+  <data name="Yaml" xml:space="preserve">
+    <value>YAML</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Convert JSON data to YAML and vice versa</value>

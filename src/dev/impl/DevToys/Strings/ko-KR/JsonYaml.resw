@@ -144,8 +144,8 @@
   <data name="InvalidYaml" xml:space="preserve">
     <value>YAML 내용이 올바르지 않습니다.</value>
   </data>
-  <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON 을 YAML 로</value>
+  <data name="Json" xml:space="preserve">
+    <value>JSON</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>출력 내용</value>
@@ -153,8 +153,8 @@
   <data name="TwoSpaces" xml:space="preserve">
     <value>공백 2자</value>
   </data>
-  <data name="YamlToJson" xml:space="preserve">
-    <value>YAML 을 JSON 로</value>
+  <data name="Yaml" xml:space="preserve">
+    <value>YAML</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>JSON 데이터를 YAML 로 변환하거나 반대의 작업을 수행합니다.</value>

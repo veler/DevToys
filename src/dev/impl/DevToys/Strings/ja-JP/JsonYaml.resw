@@ -144,8 +144,8 @@
   <data name="InvalidYaml" xml:space="preserve">
     <value>入力した YAML が不正な形式です</value>
   </data>
-  <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON から YAML</value>
+  <data name="Json" xml:space="preserve">
+    <value>JSON</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>出力</value>
@@ -153,8 +153,8 @@
   <data name="TwoSpaces" xml:space="preserve">
     <value>2 スペース</value>
   </data>
-  <data name="YamlToJson" xml:space="preserve">
-    <value>YAML から JSON</value>
+  <data name="Yaml" xml:space="preserve">
+    <value>YAML</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>JSON データを YAML （またはその逆）に変換します</value>

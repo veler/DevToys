@@ -144,8 +144,8 @@
   <data name="InvalidYaml" xml:space="preserve">
     <value>Введенный Yaml недопустим.</value>
   </data>
-  <data name="JsonToYaml" xml:space="preserve">
-    <value>JSON в YAML</value>
+  <data name="Json" xml:space="preserve">
+    <value>JSON</value>
   </data>
   <data name="Output" xml:space="preserve">
     <value>Вывод</value>
@@ -153,8 +153,8 @@
   <data name="TwoSpaces" xml:space="preserve">
     <value>2 пробела</value>
   </data>
-  <data name="YamlToJson" xml:space="preserve">
-    <value>YAML в JSON</value>
+  <data name="Yaml" xml:space="preserve">
+    <value>YAML</value>
   </data>
   <data name="Description" xml:space="preserve">
     <value>Конвертирование данных JSON в YAML и наоборот</value>

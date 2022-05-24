@@ -49,19 +49,26 @@
             Grid.Row="0"
             Spacing="4">
             <TextBlock Style="{StaticResource SubTitleTextBlock}" Text="{x:Bind ViewModel.Strings.Configuration}" />
-
+            
             <controls:ExpandableSettingControl
                 Title="{x:Bind ViewModel.Strings.ConversionTitle}"
                 Description="{x:Bind ViewModel.Strings.ConversionDescription}">
                 <controls:ExpandableSettingControl.Icon>
                     <FontIcon Glyph="&#xF18D;" />
                 </controls:ExpandableSettingControl.Icon>
-                <ComboBox
-                    SelectedValuePath="Tag"
-                    SelectedValue="{x:Bind ViewModel.ConversionMode, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
-                    <ComboBoxItem Tag="JsonToYaml" Content="{x:Bind ViewModel.Strings.JsonToYaml}"/>
-                    <ComboBoxItem Tag="YamlToJson" Content="{x:Bind ViewModel.Strings.YamlToJson}"/>
-                </ComboBox>
+                <StackPanel Spacing="4" Orientation="Horizontal">
+                    <ComboBox
+                        ItemsSource="{x:Bind ViewModel.Languages}"
+                        DisplayMemberPath="DisplayName"
+                        SelectedItem="{x:Bind ViewModel.InputValueLanguage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    </ComboBox>
+                    <FontIcon Glyph="&#xF18D;"/>
+                    <ComboBox
+                        ItemsSource="{x:Bind ViewModel.Languages}"
+                        DisplayMemberPath="DisplayName"
+                        SelectedItem="{x:Bind ViewModel.OutputValueLanguage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    </ComboBox>
+                </StackPanel>
             </controls:ExpandableSettingControl>
 
             <controls:ExpandableSettingControl

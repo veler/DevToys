@@ -10,7 +10,7 @@ namespace DevToys.Models
     public class NumberBaseDictionary : IEquatable<NumberBaseDictionary>
     {
         public static readonly NumberBaseDictionary Base16Dictionary = new(
-            _dictionary: "0123456789ABCDEF", 
+            _dictionary: "0123456789ABCDEF",
             formatting: true);
 
         public static readonly NumberBaseDictionary RFC4648Base32Dictionary = new(
@@ -55,7 +55,7 @@ namespace DevToys.Models
         public override bool Equals(object obj)
         {
             if (obj is not NumberBaseDictionary other)
-            { 
+            {
                 return false;
             }
             return Equals(other);

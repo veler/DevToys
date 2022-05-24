@@ -1299,9 +1299,9 @@ namespace DevToys
         public string InvalidYaml => _resources.GetString("InvalidYaml");
 
         /// <summary>
-        /// Gets the resource JsonToYaml.
+        /// Gets the resource Json.
         /// </summary>
-        public string JsonToYaml => _resources.GetString("JsonToYaml");
+        public string Json => _resources.GetString("Json");
 
         /// <summary>
         /// Gets the resource Output.
@@ -1314,9 +1314,9 @@ namespace DevToys
         public string TwoSpaces => _resources.GetString("TwoSpaces");
 
         /// <summary>
-        /// Gets the resource YamlToJson.
+        /// Gets the resource Yaml.
         /// </summary>
-        public string YamlToJson => _resources.GetString("YamlToJson");
+        public string Yaml => _resources.GetString("Yaml");
 
         /// <summary>
         /// Gets the resource Description.
