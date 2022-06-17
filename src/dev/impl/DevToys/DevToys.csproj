@@ -562,6 +562,33 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <PRIResource Include="Strings\ar-JO\XmlFormatter.resw" />
+    <PRIResource Include="Strings\ar-JO\UrlEncoderDecoder.resw" />
+    <PRIResource Include="Strings\ar-JO\ToolGroups.resw" />
+    <PRIResource Include="Strings\ar-JO\TextDiff.resw" />
+    <PRIResource Include="Strings\ar-JO\StringUtilities.resw" />
+    <PRIResource Include="Strings\ar-JO\SqlFormatter.resw" />
+    <PRIResource Include="Strings\ar-JO\Settings.resw" />
+    <PRIResource Include="Strings\ar-JO\SearchResult.resw" />
+    <PRIResource Include="Strings\ar-JO\RegEx.resw" />
+    <PRIResource Include="Strings\ar-JO\PngJpgCompressor.resw" />
+    <PRIResource Include="Strings\ar-JO\NumberBaseConverter.resw" />
+    <PRIResource Include="Strings\ar-JO\MarkdownPreview.resw" />
+    <PRIResource Include="Strings\ar-JO\MainPage.resw" />
+    <PRIResource Include="Strings\ar-JO\LoremIpsumGenerator.resw" />
+    <PRIResource Include="Strings\ar-JO\JwtDecoderEncoder.resw" />
+    <PRIResource Include="Strings\ar-JO\JsonYaml.resw" />
+    <PRIResource Include="Strings\ar-JO\JsonFormatter.resw" />
+    <PRIResource Include="Strings\ar-JO\ImageConverter.resw" />
+    <PRIResource Include="Strings\ar-JO\HtmlEncoderDecoder.resw" />
+    <PRIResource Include="Strings\ar-JO\HashGenerator.resw" />
+    <PRIResource Include="Strings\ar-JO\GZipEncoderDecoder.resw" />
+    <PRIResource Include="Strings\ar-JO\GuidGenerator.resw" />
+    <PRIResource Include="Strings\ar-JO\Common.resw" />
+    <PRIResource Include="Strings\ar-JO\ColorBlindnessSimulator.resw" />
+    <PRIResource Include="Strings\ar-JO\CheckSumGenerator.resw" />
+    <PRIResource Include="Strings\ar-JO\Base64EncoderDecoder.resw" />
+    <PRIResource Include="Strings\ar-JO\AllTools.resw" />
     <PRIResource Include="Strings\*\*.resw" />
     <Page Include="Themes\Custom.xaml">
       <Generator>MSBuild:Compile</Generator>
